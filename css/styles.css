@@ -9,9 +9,9 @@ body{
   padding: 3% 15% 7%;
 }
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Work Sans', sans-serif;
  line-height: 1.5;
- font-size: 3.8rem;
+ font-size: 3.5rem;
  
 }
 h2{
@@ -32,6 +32,10 @@ p{
 }
 
 /*************nav bar*****/
+
+.brand-logo{
+  margin-right: 20px;
+}
 .navbar{
   padding:0 0 4.5rem;
 }
@@ -126,6 +130,12 @@ position: relative;
     transform: rotate(0);
     width: 60%;
   }
+    .nav-item{
+    text-align: right;
+  }
+  .nav-link{
+    color: #000;
+  }
 }
 
 #cta{
@@ -135,15 +145,14 @@ position: relative;
 }
 .cta-text{
   font-size: 4rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+ font-family: 'Pacifico', cursive;
   color: #fff;
 }
 
 #footer{
   background-color: #42855B;
   text-align: center;
-  padding: 3% 2%;
+  padding: 7% 15%;
   
 }
 .footer-text{
